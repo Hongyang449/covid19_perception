@@ -17,13 +17,16 @@ git clone https://github.com/Hongyang449/covid19_perception.git
 * [transformers](https://huggingface.co/docs/transformers/main/en/index) (4.21.0)
 * [shap](https://github.com/slundberg/shap) (0.39.0)
 
-## 1. Preprocess data (director data/)
+## 1. Preprocess data 
+* directory data/
 * python preprocess.py
 
-## 2. Train NLP models and make predictions (directories code/class5/ and code/class6/)
+## 2. Train NLP models and make predictions 
+* directories code/class5/ and code/class6/
 * python train.py
 
-## 3. SHAP analysis (directories code/class5/ and code/class6/)
+## 3. SHAP analysis 
+* directories code/class5/ and code/class6/
 * python shap_analysis.py
 * python shap_consensus.py
 
